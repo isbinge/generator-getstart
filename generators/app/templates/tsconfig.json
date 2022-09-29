@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "target": "es6",
+        "jsx": "react",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "inlineSourceMap": false,
+        "paths": {
+            "@":["./src"],
+            "@assets/*": ["./src/assets/*"]
+        },
+        "typeRoots": ["node_modules/@types","./src/typings"]
+    },
+    "include": ["./src/**/*"],
+
+}

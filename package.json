@@ -1,0 +1,23 @@
+{
+  "name": "generator-getstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "command-exists": "^1.2.9",
+    "yeoman-generator": "^5.7.0",
+    "yosay": "^2.0.2"
+  }
+}
